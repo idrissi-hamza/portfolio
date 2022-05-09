@@ -13,7 +13,13 @@
   flex-direction: column;
   width: 100%;
   margin-top: 4rem;
-  gap: 4rem;
-  color: #788097;
+  /* gap: 4rem; */
+  /* color: #788097; */
 }
 
+.f-content a {
+ 
+  color: #788097;
+  text-decoration: none;
+  font-size: medium;
+}

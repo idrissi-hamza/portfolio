@@ -11,7 +11,7 @@ const Footer = () => {
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "100%", height:'200px' }} />
       <div className="f-content">
-        <span>a.idrissihamza@gmail.com</span>
+        <a href="https://github.com/idrissi-hamza/portfolio"  target='_blank'>Built by Abderrahmani Idrissi Hamza</a>
    
       </div>
     </div>
