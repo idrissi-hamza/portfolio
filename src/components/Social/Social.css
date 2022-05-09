@@ -1,0 +1,24 @@
+.s-icons {
+  position: fixed;
+  bottom: 5rem;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.s-icon {
+  margin-bottom: 8px;
+}
+.s-icon:hover {
+  scale: 1.2;
+  transition: all 200ms ease-out;
+}
+.s-icons::after {
+  content: "";
+  width: 1.4px;
+  height: 10rem;
+  background: #788097;
+  margin-left: 0.75rem;
+  position: absolute;
+  top: 6rem;
+}
+
