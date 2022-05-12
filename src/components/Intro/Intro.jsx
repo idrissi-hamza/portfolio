@@ -20,10 +20,10 @@ const Intro = () => {
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hi! My name is</span>
           <span>A.Idrissi Hamza</span>
-          <span>I build (and occasionally design) exceptional digital experiences.</span>
+          <span  style={{ color: darkMode ? "#eee" : "#aaa" }}> I build (and occasionally design) exceptional digital experiences.</span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
-          <button className="button i-button">Contact me</button>
+          <button className="button i-button">Contact</button>
         </Link>
         {/* social icons */}
         {/* <div className="i-icons">

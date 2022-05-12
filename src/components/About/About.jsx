@@ -33,7 +33,7 @@ const Services = () => {
         {/* <span>services</span> */}
 
         <p style={{ margin: "2px 0" }}>I'm a Frontend Developper</p>
-        <div style={{ color: "#788097", fontSize: "30px", fontWeight: "bold" }}>
+        <div style={{ color: darkMode ? "#eee" : "#aaa", fontSize: "30px", fontWeight: "bold" }}>
           I'm Frontend developer with almost a year of experience. I have a good
           design eye. I am a responsible, and initiative person, passionate
           about creating great website and satisfy the technical needs of my
