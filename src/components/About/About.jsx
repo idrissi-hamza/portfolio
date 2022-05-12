@@ -3,8 +3,19 @@ import "./About.css";
 
 import { themeContext } from "../../Context";
 
-
-import { SiNextdotjs,SiReact,SiTailwindcss ,SiSass,SiHtml5,SiCss3,SiGit,SiGithub,SiJavascript,SiRedux,SiFigma} from "react-icons/si";
+import {
+  SiNextdotjs,
+  SiReact,
+  SiTailwindcss,
+  SiSass,
+  SiHtml5,
+  SiCss3,
+  SiGit,
+  SiGithub,
+  SiJavascript,
+  SiRedux,
+  SiFigma,
+} from "react-icons/si";
 
 const Services = () => {
   // context
@@ -23,9 +34,12 @@ const Services = () => {
 
         <p style={{ margin: "2px 0" }}>I'm a Frontend Developper</p>
         <div style={{ color: "#788097", fontSize: "30px", fontWeight: "bold" }}>
-          A mechanical engineer by degree, a passionate self-taught  Front End Web Developer (specializing in React Applications) 
+          I'm Frontend developer with almost a year of experience. I have a good
+          design eye. I am a responsible, and initiative person, passionate
+          about creating great website and satisfy the technical needs of my
+          clients. I can deliver any idea, I am very helpful, communicative and
+          available
           <br />
-
           I'm a tireless seeker of the 'why' of things, and finding both a good
           and efficient way of solving problems, with a meticulous attention to
           details.
@@ -37,33 +51,32 @@ const Services = () => {
       <div className="skills-container">
         <h2 className="skills-title">Skills</h2>
         <div className="skills-icons-container">
-        
           <div className="skill-icon-container">
-            <SiReact className="skill-icon"/>
+            <SiReact className="skill-icon" />
             <p className="title-uicon">React</p>
           </div>
           <div className="skill-icon-container">
-            <SiJavascript className="skill-icon"/>
+            <SiJavascript className="skill-icon" />
             <p className="title-uicon">JavaScript</p>
           </div>
           <div className="skill-icon-container">
-            <SiCss3 className="skill-icon"/>
+            <SiCss3 className="skill-icon" />
             <p className="title-uicon">Css</p>
           </div>
           <div className="skill-icon-container">
-            <SiHtml5 className="skill-icon"/>
+            <SiHtml5 className="skill-icon" />
             <p className="title-uicon">HTML</p>
           </div>
           <div className="skill-icon-container">
-            <SiTailwindcss className="skill-icon"/>
+            <SiTailwindcss className="skill-icon" />
             <p className="title-uicon">Tailwindcss</p>
           </div>
           <div className="skill-icon-container">
-            <SiNextdotjs className="skill-icon"/>
+            <SiNextdotjs className="skill-icon" />
             <p className="title-uicon">Next.js</p>
           </div>
           <div className="skill-icon-container">
-            <SiSass className="skill-icon"/>
+            <SiSass className="skill-icon" />
             <p className="title-uicon">Sass</p>
           </div>
           {/* <div className="skill-icon-container">
@@ -71,15 +84,15 @@ const Services = () => {
             <p className="title-uicon">Redux</p>
           </div> */}
           <div className="skill-icon-container">
-            <SiGit className="skill-icon"/>
+            <SiGit className="skill-icon" />
             <p className="title-uicon">Git</p>
           </div>
           <div className="skill-icon-container">
-            <SiGithub className="skill-icon"/>
+            <SiGithub className="skill-icon" />
             <p className="title-uicon">GitHub</p>
           </div>
           <div className="skill-icon-container">
-            <SiFigma className="skill-icon"/>
+            <SiFigma className="skill-icon" />
             <p className="title-uicon">Figma</p>
           </div>
         </div>
